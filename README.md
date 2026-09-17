@@ -1,145 +1,171 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi,%20I'm%20Darshana%20✨&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=building%20clean,%20scalable%20software%20—%20one%20system%20at%20a%20time&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E6D9F5,50:C9A7EB,100:8B5FBF&height=200&section=header&text=Darshana%20Mandal&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Backend%20%26%20Systems%20Engineer%20·%20Applied%20AI%20·%20Open%20Source&descAlignY=65&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&pause=1000&color=C9A7EB&center=true&vCenter=true&width=600&lines=Computer+Science+%2B+Electronics+Engineer;Backend+%7C+Systems+%7C+AI%2FML+Enthusiast;Turning+ideas+into+well-designed+products+%F0%9F%92%9C" alt="Typing SVG" />
+<br>
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&pause=1000&color=C9A7EB&center=true&vCenter=true&width=560&lines=building+RAG+pipelines+at+3am;clean+architecture+%3E+clever+code;debugging+embedded+C+while+overthinking+life" alt="Typing SVG" />
+
+<br><br>
+
+<a href="mailto:dishu6243@gmail.com"><img src="https://img.shields.io/badge/GMAIL-8B5FBF?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LINKEDIN-B79CED?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/dvskullz"><img src="https://img.shields.io/badge/GITHUB-C9A7EB?style=for-the-badge&logo=github&logoColor=white"/></a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=dvskullz&style=for-the-badge&color=8b5fbf&label=PROFILE+VIEWS"/>
+<img src="https://img.shields.io/github/followers/dvskullz?style=for-the-badge&color=8b5fbf&labelColor=black&label=FOLLOWERS"/>
 
 </div>
 
 <br>
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
-### 💜 About Me
-
-```yaml
-name: Darshana Mandal
-role: ECE Undergraduate @ VIT, expected 2027
-focus: Backend Architecture · Embedded Systems · Applied AI
-currently_building: ClinSight AI — a RAG-powered clinical assistant
-philosophy: "clean architecture > clever code"
-```
-
-- 🔭 Currently building **ClinSight AI**, a multi-agent clinical assistant using RAG + FAISS
-- ⚡ Comfortable moving between **hardware** (VLSI, embedded C, microcontrollers) and **software** (full-stack, ML pipelines)
-- 🌱 Deepening my knowledge of **LLMs, Agentic AI, and system design**
-- 💌 Reach me at **dishu6243@gmail.com**
-
-</td>
-<td width="45%" valign="top">
-
-### 🪞 Snapshot
-
-<img src="https://github-readme-stats.vercel.app/api?username=dvskullz&show_icons=true&hide_border=true&theme=transparent&title_color=B79CED&icon_color=C9A7EB&text_color=6b5b7a&bg_color=00000000" width="100%"/>
-
-</td>
-</tr>
-</table>
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
 
 <br>
 
-### 🧵 Tech Stack
+## `>_` whoami
+
+```json
+{
+  "name": "Darshana Mandal",
+  "degree": "B.Tech ECE (with a CS heart) @ VIT | 2023 – 2027",
+  "building": ["ClinSight AI", "RAG pipelines", "Embedded target-tracking systems"],
+  "obsessed_with": ["System Design", "Agentic AI", "Clean Architecture"],
+  "currently": "Electrical & Instrumentation Intern @ IOCL Digboi",
+  "reach_me": "dishu6243@gmail.com"
+}
+```
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
+
+## ⚡ Tech Arsenal
 
 <div align="center">
 
 **Languages**
 <br>
-<img src="https://img.shields.io/badge/Java-D9C6F0?style=for-the-badge&logo=openjdk&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Python-D9C6F0?style=for-the-badge&logo=python&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Embedded%20C-D9C6F0?style=for-the-badge&logo=c&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Verilog-D9C6F0?style=for-the-badge&logo=v&logoColor=6b5b7a"/>
+<img src="https://skillicons.dev/icons?i=java,python,c,cpp&theme=dark" />
 
-**Frontend & Backend**
+**Backend & Web**
 <br>
-<img src="https://img.shields.io/badge/Node.js-E6D9F5?style=for-the-badge&logo=nodedotjs&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Express-E6D9F5?style=for-the-badge&logo=express&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/React-E6D9F5?style=for-the-badge&logo=react&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Next.js-E6D9F5?style=for-the-badge&logo=nextdotjs&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Flutter-E6D9F5?style=for-the-badge&logo=flutter&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/FastAPI-E6D9F5?style=for-the-badge&logo=fastapi&logoColor=6b5b7a"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,nextjs,flutter,fastapi&theme=dark" />
 
 **Data & ML**
 <br>
-<img src="https://img.shields.io/badge/MongoDB-F0E3FA?style=for-the-badge&logo=mongodb&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/PostgreSQL-F0E3FA?style=for-the-badge&logo=postgresql&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Firebase-F0E3FA?style=for-the-badge&logo=firebase&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/TensorFlow-F0E3FA?style=for-the-badge&logo=tensorflow&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/FAISS-F0E3FA?style=for-the-badge&logo=meta&logoColor=6b5b7a"/>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,firebase,tensorflow,pytorch&theme=dark" />
 
-**Tools**
+**Tools & Platforms**
 <br>
-<img src="https://img.shields.io/badge/Git-DCC6F0?style=for-the-badge&logo=git&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Cadence%20Virtuoso-DCC6F0?style=for-the-badge&logo=circuitverse&logoColor=6b5b7a"/>
-<img src="https://img.shields.io/badge/Figma-DCC6F0?style=for-the-badge&logo=figma&logoColor=6b5b7a"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,docker&theme=dark" />
 
 </div>
 
-<br>
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
 
-### 🎀 Featured Projects
+## 🛠️ What I'm Building
 
-<table>
+<table width="100%">
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**[ClinSight AI](https://github.com)**
-<br>
-Multi-agent clinical system generating 60-second pre-consultation briefs. RAG pipeline with FAISS + SentenceTransformers.
-<br>
-`Python` `RAG` `FAISS` `Next.js`
+### 🧠 ClinSight AI
+`Python` `RAG` `FAISS` `SentenceTransformers` `Next.js` `Flutter`
 
-</td>
-<td width="33%" valign="top">
-
-**[Krishi Deep](https://github.com)**
-<br>
-AI-powered smart farming platform — crop recommendation, disease detection, and yield forecasting via IoT + ML.
-<br>
-`FastAPI` `XGBoost` `ESP32`
+Multi-agent clinical system that processes patient case sheets and generates **60-second pre-consultation briefs** — cutting manual review time by **70%**. RAG pipeline over FAISS for semantic clinical search, boosting decision-support efficiency by **60%**.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**[Laser Turret Tracking](https://github.com)**
-<br>
-Real-time embedded target-tracking system with ultrasonic sensing and PWM pan-tilt control, ±1cm accuracy.
-<br>
-`Embedded C` `TM4C123GXL`
+### 🌾 Krishi Deep
+`FastAPI` `React` `Flutter` `XGBoost` `LSTM` `ESP32` `MongoDB`
+
+AI-powered smart farming platform fusing **3 ML models** with ESP32 IoT sensors for crop recommendation, disease detection, and yield forecasting — plus blockchain-backed market price transparency.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Laser Turret Tracking System
+`Embedded C` `TM4C123GXL` `PWM` `Ultrasonic`
+
+Real-time embedded target-tracking rig on TI's TM4C123GXL — filtered ultrasonic sensing at **±1cm accuracy**, 2-axis PWM pan-tilt control, and auto-lock at ≤30cm, with live OLED status feedback over I2C.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔭 What's Next
+```
+[ ] Agentic AI multi-tool orchestration
+[ ] Deep dive into VLSI / RTL design
+[ ] MLOps & model serving at scale
+[ ] Contribute to a large OSS backend repo
+```
 
 </td>
 </tr>
 </table>
 
-<br>
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
 
-### 🌸 GitHub Activity
+## 📈 Currently Sharpening
+
+```text
+LLMs & Agentic AI        ████████████████░░░░  80%
+RAG & Vector Search       ███████████████████░  90%
+Embedded Systems          █████████████████░░░  85%
+System Design             ██████████████░░░░░░  70%
+VLSI / Digital Design     █████████████░░░░░░░  65%
+```
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
+
+## 🏅 Milestones
+
+| | Achievement |
+|---|---|
+| 🛢️ | Electrical & Instrumentation Intern — **IOCL Digboi Refinery** |
+| 🔬 | Digital System Design Intern — **NIT Durgapur**, CMOS/VLSI in Cadence Virtuoso |
+| 📊 | Business Analysis Essentials — Excel, Power BI & Statistics (Udemy) |
+| 💼 | Management Consulting Case Interviews & Guesstimates (Udemy) |
+| ✈️ | Technical Member, Team Aviators — UAV subsystem design |
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
+
+## 📊 GitHub Analytics
 
 <div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=dvskullz&show_icons=true&hide_border=true&theme=transparent&title_color=C9A7EB&icon_color=8B5FBF&text_color=e0d5f0&bg_color=00000000" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvskullz&layout=compact&hide_border=true&theme=transparent&title_color=C9A7EB&text_color=e0d5f0&bg_color=00000000" width="38%"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dvskullz&theme=transparent&hide_border=true&ring=C9A7EB&fire=B79CED&currStreakLabel=6b5b7a&sideLabels=6b5b7a&currStreakNum=6b5b7a&sideNums=6b5b7a&dates=9a8aa8" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvskullz&layout=compact&theme=transparent&hide_border=true&title_color=B79CED&text_color=6b5b7a&bg_color=00000000" width="35%"/>
+<br>
 
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dvskullz&theme=react-dark&bg_color=ffffff00&color=6b5b7a&line=C9A7EB&point=B79CED&area=true&hide_border=true" width="90%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dvskullz&hide_border=true&background=00000000&ring=8B5FBF&fire=C9A7EB&currStreakLabel=C9A7EB&sideLabels=e0d5f0&currStreakNum=e0d5f0&sideNums=e0d5f0&dates=9a8aa8" width="60%"/>
 
 </div>
 
-<br>
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/dvskullz/dvskullz/output/github-contribution-grid-snake-dark-purple.svg" width="100%"/>
+</div>
+
+> ⚠️ This snake needs a one-time GitHub Action added to this repo before it will render — see setup notes below.
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:E6D9F5,100:8B5FBF&height=3&width=100%25)
 
 <div align="center">
 
-### 💌 Let's Connect
-
-<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-E6D9F5?style=for-the-badge&logo=linkedin&logoColor=6b5b7a"/></a>
-<a href="mailto:dishu6243@gmail.com"><img src="https://img.shields.io/badge/Gmail-E6D9F5?style=for-the-badge&logo=gmail&logoColor=6b5b7a"/></a>
-
-<br><br>
+### 💜 Let's Build Something
 
 <i>"clean architecture, thoughtful design, code that lasts."</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E6D9F5,50:C9A7EB,100:8B5FBF&height=120&section=footer" width="100%"/>
 
 </div>
