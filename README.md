@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Gmail-C4B5FD?style=for-the-badge&logo=gmail&logoColor=23133D&labelColor=23133D" height="42" alt="Gmail"/>
 </a>
 &nbsp;
-<a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+<a href="https://www.linkedin.com/in/darshana-mandal" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-DDD6FE?style=for-the-badge&logo=linkedin&logoColor=23133D&labelColor=23133D" height="42" alt="LinkedIn"/>
 </a>
 &nbsp;
@@ -246,7 +246,7 @@
   <img src="https://img.shields.io/badge/Gmail-dishu6243%40gmail.com-C4B5FD?style=for-the-badge&logo=gmail&logoColor=23133D&labelColor=23133D" height="42" alt="Email Me"/>
 </a>
 &nbsp;
-<a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+<a href="https://www.linkedin.com/in/darshana-mandal" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-DDD6FE?style=for-the-badge&logo=linkedin&logoColor=23133D&labelColor=23133D" height="42" alt="LinkedIn"/>
 </a>
 &nbsp;
