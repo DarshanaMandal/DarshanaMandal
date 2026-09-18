@@ -66,11 +66,11 @@
 
 </div>
 
-### ✦ Quick Overview
-- 🎓 **ECE Undergrad @ VIT** bridging the sweet spot between **low-level hardware systems** and **high-level distributed intelligence**.
-- 🧠 **AI & Systems Engineer**: Passionate about architecting **Agentic AI swarms**, semantic search pipelines with **FAISS & RAG**, and scalable backend services.
-- ⚙️ **Embedded & Firmware Tinkerer**: Hands-on experience developing real-time target tracking rigs on **TI TM4C123GXL**, sensor fusion arrays on **ESP32**, and IC simulation in **Cadence Virtuoso**.
-- 🛢️ **Industrial Experience**: Interned at **IOCL Digboi Refinery**, working with industrial sensor loops, instrumentation, and control architectures.
+<br>
+
+<!-- Quick Overview (Pastel Purple 4-Card UI) -->
+<img src="./assets/overview.svg" width="100%" alt="Darshana's Quick Overview Matrix"/>
+
 
 <br>
 
