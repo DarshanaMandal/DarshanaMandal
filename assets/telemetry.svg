@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 850 200" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 850 215" width="100%" height="215" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#140B24"/>
@@ -19,28 +19,22 @@
   </defs>
 
   <style>
-    .t-heading {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      fill: #DDD6FE;
-    }
     .stat-number {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 800;
       fill: #FFFFFF;
     }
     .stat-label {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 12.5px;
-      font-weight: 600;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
       fill: #C4B5FD;
     }
     .stat-sub {
       font-family: 'Fira Code', monospace;
-      font-size: 11px;
+      font-size: 10.5px;
       fill: #A78BFA;
     }
     .grade-text {
@@ -51,60 +45,66 @@
     }
     .lang-name {
       font-family: 'Fira Code', monospace;
-      font-size: 11.5px;
+      font-size: 11px;
       font-weight: 600;
       fill: #E9D5FF;
     }
   </style>
 
   <!-- Container Box -->
-  <rect width="850" height="200" rx="14" fill="url(#card-bg)" stroke="#C4B5FD" stroke-opacity="0.3" stroke-width="1.2"/>
+  <rect width="850" height="215" rx="14" fill="url(#card-bg)" stroke="#C4B5FD" stroke-opacity="0.3" stroke-width="1.2"/>
 
   <!-- Card 1: Total Activity -->
-  <g transform="translate(30, 24)">
-    <rect width="230" height="150" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="32" class="stat-label">🚀 TOTAL COMMITS</text>
-    <text x="20" y="78" class="stat-number">84</text>
-    <text x="20" y="102" class="stat-sub">✦ 2024 - 2025 Activity</text>
+  <g transform="translate(25, 20)">
+    <rect width="235" height="175" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="34" class="stat-label">🚀 TOTAL COMMITS</text>
+    <text x="20" y="85" class="stat-number">84</text>
+    <text x="20" y="112" class="stat-sub">✦ 2024 - 2025 Activity</text>
     <!-- Mini progress bar -->
-    <rect x="20" y="120" width="190" height="6" rx="3" fill="#2A174A"/>
-    <rect x="20" y="120" width="165" height="6" rx="3" fill="#C4B5FD"/>
+    <rect x="20" y="136" width="195" height="7" rx="3.5" fill="#2A174A"/>
+    <rect x="20" y="136" width="170" height="7" rx="3.5" fill="#C4B5FD"/>
   </g>
 
   <!-- Card 2: Code Health & Grade -->
-  <g transform="translate(285, 24)">
-    <rect width="240" height="150" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="32" class="stat-label">⚡ CODE INTEGRITY</text>
+  <g transform="translate(280, 20)">
+    <rect width="245" height="175" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="34" class="stat-label">⚡ CODE INTEGRITY</text>
     <!-- Circle gauge -->
-    <circle cx="65" cy="90" r="35" stroke="#2A174A" stroke-width="6" fill="none"/>
-    <circle cx="65" cy="90" r="35" stroke="url(#circle-grad)" stroke-width="6" stroke-dasharray="220" stroke-dashoffset="35" stroke-linecap="round" fill="none"/>
-    <text x="65" y="98" text-anchor="middle" class="grade-text">A+</text>
-    <text x="125" y="75" class="stat-sub">✦ Reliability</text>
-    <text x="125" y="96" class="stat-label" font-size="14px">99.4%</text>
-    <text x="125" y="120" class="stat-sub">Top 10% Tier</text>
+    <circle cx="68" cy="104" r="38" stroke="#2A174A" stroke-width="6" fill="none"/>
+    <circle cx="68" cy="104" r="38" stroke="url(#circle-grad)" stroke-width="6" stroke-dasharray="240" stroke-dashoffset="38" stroke-linecap="round" fill="none"/>
+    <text x="68" y="114" text-anchor="middle" class="grade-text">A+</text>
+    <text x="130" y="88" class="stat-sub">✦ Reliability</text>
+    <text x="130" y="110" class="stat-label" font-size="14px">99.4%</text>
+    <text x="130" y="132" class="stat-sub">Top 10% Tier</text>
   </g>
 
-  <!-- Card 3: Top Stack Distribution -->
-  <g transform="translate(550, 24)">
-    <rect width="270" height="150" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="20" y="30" class="stat-label">🔮 TOP TECH STACK</text>
+  <!-- Card 3: Top Stack Distribution (Java -> Embedded C -> Python -> TS & Web) -->
+  <g transform="translate(545, 20)">
+    <rect width="280" height="175" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="18" y="28" class="stat-label">🔮 TOP TECH STACK</text>
     
-    <!-- Python -->
-    <text x="20" y="58" class="lang-name">Python</text>
-    <text x="235" y="58" class="stat-sub" text-anchor="end">45%</text>
-    <rect x="20" y="64" width="230" height="5" rx="2.5" fill="#2A174A"/>
-    <rect x="20" y="64" width="103" height="5" rx="2.5" fill="#DDD6FE"/>
+    <!-- 1. Java -->
+    <text x="18" y="52" class="lang-name">Java</text>
+    <text x="262" y="52" class="stat-sub" text-anchor="end">36%</text>
+    <rect x="18" y="57" width="244" height="4.5" rx="2.25" fill="#2A174A"/>
+    <rect x="18" y="57" width="88" height="4.5" rx="2.25" fill="#DDD6FE"/>
 
-    <!-- C / C++ -->
-    <text x="20" y="90" class="lang-name">C / C++ (Embedded)</text>
-    <text x="235" y="90" class="stat-sub" text-anchor="end">28%</text>
-    <rect x="20" y="96" width="230" height="5" rx="2.5" fill="#2A174A"/>
-    <rect x="20" y="96" width="65" height="5" rx="2.5" fill="#C4B5FD"/>
+    <!-- 2. Embedded C -->
+    <text x="18" y="82" class="lang-name">Embedded C / C++</text>
+    <text x="262" y="82" class="stat-sub" text-anchor="end">28%</text>
+    <rect x="18" y="87" width="244" height="4.5" rx="2.25" fill="#2A174A"/>
+    <rect x="18" y="87" width="68" height="4.5" rx="2.25" fill="#C4B5FD"/>
 
-    <!-- TypeScript / JS -->
-    <text x="20" y="122" class="lang-name">TypeScript / Web</text>
-    <text x="235" y="122" class="stat-sub" text-anchor="end">27%</text>
-    <rect x="20" y="128" width="230" height="5" rx="2.5" fill="#2A174A"/>
-    <rect x="20" y="128" width="62" height="5" rx="2.5" fill="#A78BFA"/>
+    <!-- 3. Python -->
+    <text x="18" y="112" class="lang-name">Python</text>
+    <text x="262" y="112" class="stat-sub" text-anchor="end">22%</text>
+    <rect x="18" y="117" width="244" height="4.5" rx="2.25" fill="#2A174A"/>
+    <rect x="18" y="117" width="54" height="4.5" rx="2.25" fill="#A78BFA"/>
+
+    <!-- 4. TypeScript & Web -->
+    <text x="18" y="142" class="lang-name">TypeScript &amp; Web</text>
+    <text x="262" y="142" class="stat-sub" text-anchor="end">14%</text>
+    <rect x="18" y="147" width="244" height="4.5" rx="2.25" fill="#2A174A"/>
+    <rect x="18" y="147" width="34" height="4.5" rx="2.25" fill="#8B5CF6"/>
   </g>
 </svg>

@@ -84,12 +84,12 @@
 
 ### 💻 Languages & Core
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-C4B5FD?style=for-the-badge&logo=python&logoColor=23133D&labelColor=23133D" height="34"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-DDD6FE?style=for-the-badge&logo=c%2B%2B&logoColor=23133D&labelColor=23133D" height="34"/>
-  <img src="https://img.shields.io/badge/C-A78BFA?style=for-the-badge&logo=c&logoColor=white&labelColor=23133D" height="34"/>
   <img src="https://img.shields.io/badge/Java-C4B5FD?style=for-the-badge&logo=openjdk&logoColor=23133D&labelColor=23133D" height="34"/>
-  <img src="https://img.shields.io/badge/JavaScript-DDD6FE?style=for-the-badge&logo=javascript&logoColor=23133D&labelColor=23133D" height="34"/>
-  <img src="https://img.shields.io/badge/TypeScript-A78BFA?style=for-the-badge&logo=typescript&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Embedded_C-DDD6FE?style=for-the-badge&logo=c&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-A78BFA?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Python-C4B5FD?style=for-the-badge&logo=python&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/TypeScript-DDD6FE?style=for-the-badge&logo=typescript&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/JavaScript-A78BFA?style=for-the-badge&logo=javascript&logoColor=white&labelColor=23133D" height="34"/>
 </p>
 
 ### 🧠 Applied AI, ML & Data Science
