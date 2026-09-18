@@ -13,8 +13,19 @@
       <stop offset="100%" stop-color="#DDD6FE" stop-opacity="0.1"/>
     </linearGradient>
 
-    <!-- Glow Filter -->
-    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+    <!-- Scanning Line Gradient -->
+    <linearGradient id="scan-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C4B5FD" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#DDD6FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="bg-grid-lines" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#C4B5FD" stroke-opacity="0.04" stroke-width="0.8"/>
+    </pattern>
+
+    <filter id="scan-glow" x="-20%" y="-100%" width="140%" height="300%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
@@ -44,10 +55,28 @@
     .card-icon {
       font-size: 22px;
     }
+    
+    @keyframes scan-vertical {
+      0% { transform: translateY(-30px); opacity: 0; }
+      20% { opacity: 0.8; }
+      80% { opacity: 0.8; }
+      100% { transform: translateY(260px); opacity: 0; }
+    }
+    .scanner-line {
+      animation: scan-vertical 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
   </style>
 
   <!-- Container Box -->
   <rect width="850" height="250" rx="14" fill="#120722" stroke="#C4B5FD" stroke-opacity="0.25" stroke-width="1.2"/>
+
+  <!-- Background Grid Lines -->
+  <rect width="850" height="250" rx="14" fill="url(#bg-grid-lines)"/>
+
+  <!-- Animated Scanning Cyber Line -->
+  <g class="scanner-line" filter="url(#scan-glow)">
+    <line x1="10" y1="0" x2="840" y2="0" stroke="url(#scan-line-grad)" stroke-width="1.5"/>
+  </g>
 
   <!-- ================= CARD 1: ECE Undergrad (Top-Left) ================= -->
   <g transform="translate(20, 18)">

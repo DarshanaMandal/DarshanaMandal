@@ -43,7 +43,7 @@
 
 <br>
 
-## 🔮 `>_` About Me
+## 🔮 `>_ whoami`
 
 <div align="center">
 
