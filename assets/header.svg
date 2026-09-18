@@ -1,0 +1,130 @@
+<svg fill="none" viewBox="0 0 850 250" width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120A21"/>
+      <stop offset="35%" stop-color="#21133B"/>
+      <stop offset="70%" stop-color="#351D56"/>
+      <stop offset="100%" stop-color="#190D2D"/>
+    </linearGradient>
+
+    <!-- Pastel Purple Wave Gradient -->
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#E9D5FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Pastel Text Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F3E8FF"/>
+      <stop offset="75%" stop-color="#DDD6FE"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+
+    <!-- Subtitle Pill Gradient -->
+    <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#E9D5FF" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .name-title {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      fill: url(#text-grad);
+    }
+    .greeting {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #C4B5FD;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 13.5px;
+      font-weight: 500;
+      fill: #E9D5FF;
+      letter-spacing: 0.5px;
+    }
+    .pill-text {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #DDD6FE;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.05); }
+    }
+    @keyframes float-star {
+      0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.4; }
+      50% { transform: translateY(-4px) rotate(15deg); opacity: 0.95; }
+    }
+    .star1 { animation: float-star 3s ease-in-out infinite; transform-origin: center; }
+    .star2 { animation: float-star 4s ease-in-out infinite 1s; transform-origin: center; }
+    .star3 { animation: float-star 3.5s ease-in-out infinite 0.5s; transform-origin: center; }
+  </style>
+
+  <!-- Banner Container -->
+  <rect width="850" height="250" rx="16" fill="url(#bg-grad)" stroke="#C4B5FD" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- Decorative Pastel Ambient Glows -->
+  <circle cx="120" cy="60" r="90" fill="#A78BFA" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="730" cy="180" r="110" fill="#DDD6FE" opacity="0.09" filter="url(#glow)"/>
+  <circle cx="425" cy="125" r="140" fill="#C4B5FD" opacity="0.07" filter="url(#glow)"/>
+
+  <!-- Wave Lines -->
+  <path d="M 0 190 Q 210 140, 425 185 T 850 170 L 850 250 L 0 250 Z" fill="url(#wave-grad)"/>
+  <path d="M 0 215 Q 230 180, 425 210 T 850 205 L 850 250 L 0 250 Z" fill="#C4B5FD" fill-opacity="0.15"/>
+
+  <!-- Sparkles / Stars -->
+  <g class="star1">
+    <path d="M 160 45 Q 163 53, 171 56 Q 163 59, 160 67 Q 157 59, 149 56 Q 157 53, 160 45 Z" fill="#DDD6FE"/>
+  </g>
+  <g class="star2">
+    <path d="M 720 50 Q 722 56, 728 58 Q 722 60, 720 66 Q 718 60, 712 58 Q 718 56, 720 50 Z" fill="#C4B5FD"/>
+  </g>
+  <g class="star3">
+    <path d="M 680 130 Q 682 135, 687 137 Q 682 139, 680 144 Q 678 139, 673 137 Q 678 135, 680 130 Z" fill="#E9D5FF"/>
+  </g>
+  <g class="star1">
+    <path d="M 120 150 Q 122 154, 126 156 Q 122 158, 120 162 Q 118 158, 114 156 Q 118 154, 120 150 Z" fill="#C4B5FD"/>
+  </g>
+
+  <!-- Content Header -->
+  <!-- Monospace Tag -->
+  <text x="425" y="55" text-anchor="middle" class="greeting">✦ HELLO WORLD, I AM ✦</text>
+
+  <!-- Main Name Title -->
+  <text x="425" y="112" text-anchor="middle" class="name-title">Darshana Mandal</text>
+
+  <!-- Subtitle Tagline -->
+  <text x="425" y="148" text-anchor="middle" class="subtitle">B.Tech ECE (with a CS Heart) @ VIT · Applied AI &amp; Embedded Systems</text>
+
+  <!-- Pastel Tags Pills -->
+  <g transform="translate(145, 175)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="165" height="28" rx="14" fill="url(#pill-grad)" stroke="#C4B5FD" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="82" y="18" text-anchor="middle" class="pill-text">⚡ Applied AI &amp; RAG</text>
+
+    <!-- Pill 2 -->
+    <rect x="180" y="0" width="200" height="28" rx="14" fill="url(#pill-grad)" stroke="#DDD6FE" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="280" y="18" text-anchor="middle" class="pill-text">🛠️ Scalable Backend Architecture</text>
+
+    <!-- Pill 3 -->
+    <rect x="395" y="0" width="165" height="28" rx="14" fill="url(#pill-grad)" stroke="#C4B5FD" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="477" y="18" text-anchor="middle" class="pill-text">🎯 Embedded &amp; IoT Rigs</text>
+  </g>
+</svg>

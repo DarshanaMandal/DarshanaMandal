@@ -1,0 +1,72 @@
+<svg fill="none" viewBox="0 0 850 95" width="100%" height="95" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="load-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140B24"/>
+      <stop offset="100%" stop-color="#23133D"/>
+    </linearGradient>
+
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="40%" stop-color="#A78BFA"/>
+      <stop offset="80%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#DDD6FE"/>
+    </linearGradient>
+
+    <filter id="bar-glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono-title {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #DDD6FE;
+    }
+    .mono-status {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: 500;
+      fill: #C4B5FD;
+    }
+    .mono-pct {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: 700;
+      fill: #E9D5FF;
+    }
+    @keyframes load-progress {
+      0% { width: 0px; }
+      60% { width: 680px; }
+      100% { width: 680px; }
+    }
+    @keyframes blink-cursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .progress-fill {
+      animation: load-progress 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .cursor {
+      animation: blink-cursor 1s step-start infinite;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="850" height="95" rx="12" fill="url(#load-bg)" stroke="#C4B5FD" stroke-opacity="0.3" stroke-width="1.2"/>
+
+  <!-- Terminal Label -->
+  <text x="30" y="32" class="mono-title">✨ SYSTEM STATUS: <tspan fill="#C4B5FD">DARSHANA_CORE_V2.0</tspan></text>
+  <text x="735" y="32" class="mono-pct">READY 100%</text>
+
+  <!-- Progress Bar Track -->
+  <rect x="30" y="46" width="790" height="16" rx="8" fill="#0D0717" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Animated Progress Bar Fill -->
+  <rect x="32" y="48" width="786" height="12" rx="6" fill="url(#bar-grad)" class="progress-fill" filter="url(#bar-glow)"/>
+
+  <!-- Subtitle note -->
+  <text x="30" y="80" class="mono-status">⚡ Compiling Architecture · Initializing Vector Index · All Systems Nominal<tspan class="cursor" fill="#DDD6FE"> _</tspan></text>
+</svg>

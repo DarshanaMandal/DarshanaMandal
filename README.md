@@ -1,66 +1,80 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0714,20:1A0B2E,45:4C1D95,70:7E22CE,100:C084FC&height=230&section=header&text=Darshana%20Mandal&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=B.Tech%20ECE%20%40%20VIT%20%7C%20Applied%20AI%20%26%20RAG%20%7C%20Backend%20%26%20Embedded%20Systems&descAlignY=65&descSize=17&descColor=E9D5FF" width="100%"/>
+<!-- ═══════════════════════════ HEADER BANNER ═══════════════════════════ -->
+<img src="./assets/header.svg" width="100%" alt="Darshana Mandal - Header Banner"/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1000&color=C084FC&center=true&vCenter=true&width=620&lines=%E2%9C%A8+B.Tech+ECE+(with+a+CS+Heart)+%40+VIT+%7C+2023+-+2027;%F0%9F%A7%A0+Building+ClinSight+AI+%26+Advanced+RAG+Pipelines;%E2%9A%A1+Architecting+High-Performance+Backend+Systems;%F0%9F%9B%A0%EF%B8%8F+Designing+Embedded+Target-Tracking+Rigs;%F0%9F%92%9C+Clean+Architecture+%3E+Clever+Code" alt="Darshana's Typing Headline" />
+<br>
+
+<!-- Dynamic Typing Headline (Pastel Purple) -->
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=17&duration=2600&pause=1000&color=C4B5FD&center=true&vCenter=true&width=620&lines=%E2%9C%A8+B.Tech+ECE+(with+a+CS+Heart)+%40+VIT+%7C+2023+-+2027;%F0%9F%A7%A0+Building+Agentic+AI+%26+Advanced+RAG+Systems;%E2%9A%A1+Architecting+Scalable+High-Performance+Backends;%F0%9F%9B%A0%EF%B8%8F+Designing+Precision+Embedded+Tracking+Rigs;%F0%9F%AA%84+Clean+Architecture+%3E+Clever+Code" alt="Darshana's Typing Headline" />
 
 <br><br>
 
-<!-- Social Links (Large Badges) -->
+<!-- Social Links (Large Pastel Purple Badges) -->
 <a href="mailto:dishu6243@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-7E22CE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=3B0764" height="40" alt="Gmail"/>
+  <img src="https://img.shields.io/badge/Gmail-C4B5FD?style=for-the-badge&logo=gmail&logoColor=23133D&labelColor=23133D" height="42" alt="Gmail"/>
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-9333EA?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=4C1D95" height="40" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-DDD6FE?style=for-the-badge&logo=linkedin&logoColor=23133D&labelColor=23133D" height="42" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="https://github.com/dvskullz" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=581C87" height="40" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=23133D" height="42" alt="GitHub"/>
 </a>
 
 <br><br>
 
-<!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=dvskullz&style=for-the-badge&color=7e22ce&labelColor=1a0b2e&label=PROFILE+VIEWS" height="30" alt="Profile Views"/>
+<!-- Profile Views & Followers (Pastel Lavender) -->
+<img src="https://komarev.com/ghpvc/?username=dvskullz&style=for-the-badge&color=c4b5fd&labelColor=1f1435&label=PROFILE+VIEWS" height="28" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/dvskullz?style=for-the-badge&color=9333ea&labelColor=1a0b2e&label=FOLLOWERS&logo=github&logoColor=c084fc" height="30" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/dvskullz?style=for-the-badge&color=ddd6fe&labelColor=1f1435&label=FOLLOWERS&logo=github&logoColor=c4b5fd" height="28" alt="Followers"/>
+
+<br><br>
+
+<!-- Animated Loading Widget -->
+<img src="./assets/loading.svg" width="100%" alt="System Status Loading Bar"/>
 
 </div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
-## 🔮 `>_` whoami
+## 🔮 `>_` About Me
+
+<div align="center">
 
 ```json
 {
   "name": "Darshana Mandal",
-  "education": "B.Tech ECE (with a CS heart) @ VIT | 2023 – 2027",
-  "building": [
-    "ClinSight AI (Multi-agent clinical RAG system)",
-    "Krishi Deep (IoT + 3-Model AI smart farming platform)",
-    "Laser Turret Rig (Real-time embedded target-tracking)"
+  "education": "B.Tech in Electronics & Communication Engineering (with a CS Heart) @ VIT | 2023 – 2027",
+  "focus_areas": [
+    "Applied AI, Multi-Agent Systems & Vector Search (RAG)",
+    "High-Concurrency Backend Architecture & API Design",
+    "Embedded C Firmware, IoT Telemetry & VLSI / Digital Logic"
   ],
-  "interests": [
-    "Agentic AI & RAG",
-    "High-Throughput Backend Systems",
-    "Embedded C & VLSI / Digital Design",
-    "Clean Architecture"
-  ],
-  "experience": "Electrical & Instrumentation Intern @ IOCL Digboi Refinery",
-  "reach_me": "dishu6243@gmail.com"
+  "current_role": "Electrical & Instrumentation Intern @ IOCL Digboi Refinery",
+  "past_research": "Digital System Design Intern @ NIT Durgapur (CMOS & VLSI)",
+  "philosophy": "Clean architecture, thoughtful hardware-software synergy, and code crafted to scale.",
+  "location": "Vellore / Assam, India",
+  "contact": "dishu6243@gmail.com"
 }
 ```
 
+</div>
+
+### ✦ Quick Overview
+- 🎓 **ECE Undergrad @ VIT** bridging the sweet spot between **low-level hardware systems** and **high-level distributed intelligence**.
+- 🧠 **AI & Systems Engineer**: Passionate about architecting **Agentic AI swarms**, semantic search pipelines with **FAISS & RAG**, and scalable backend services.
+- ⚙️ **Embedded & Firmware Tinkerer**: Hands-on experience developing real-time target tracking rigs on **TI TM4C123GXL**, sensor fusion arrays on **ESP32**, and IC simulation in **Cadence Virtuoso**.
+- 🛢️ **Industrial Experience**: Interned at **IOCL Digboi Refinery**, working with industrial sensor loops, instrumentation, and control architectures.
+
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
@@ -70,117 +84,61 @@
 
 ### 💻 Languages & Core
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3B0764?style=for-the-badge&logo=python&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-4C1D95?style=for-the-badge&logo=c%2B%2B&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/C-581C87?style=for-the-badge&logo=c&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Java-6B21A8?style=for-the-badge&logo=openjdk&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/JavaScript-7E22CE?style=for-the-badge&logo=javascript&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/TypeScript-9333EA?style=for-the-badge&logo=typescript&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
+  <img src="https://img.shields.io/badge/Python-C4B5FD?style=for-the-badge&logo=python&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-DDD6FE?style=for-the-badge&logo=c%2B%2B&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/C-A78BFA?style=for-the-badge&logo=c&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Java-C4B5FD?style=for-the-badge&logo=openjdk&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/JavaScript-DDD6FE?style=for-the-badge&logo=javascript&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/TypeScript-A78BFA?style=for-the-badge&logo=typescript&logoColor=white&labelColor=23133D" height="34"/>
 </p>
 
-### 🧠 Applied AI, ML & Data
+### 🧠 Applied AI, ML & Data Science
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-3B0764?style=for-the-badge&logo=pytorch&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/TensorFlow-4C1D95?style=for-the-badge&logo=tensorflow&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/RAG_Pipelines-581C87?style=for-the-badge&logo=probot&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/FAISS-6B21A8?style=for-the-badge&logo=meta&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/LangChain-7E22CE?style=for-the-badge&logo=chainlink&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Scikit_Learn-9333EA?style=for-the-badge&logo=scikit-learn&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/XGBoost-A855F7?style=for-the-badge&logo=xgboost&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
+  <img src="https://img.shields.io/badge/PyTorch-C4B5FD?style=for-the-badge&logo=pytorch&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/TensorFlow-DDD6FE?style=for-the-badge&logo=tensorflow&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/RAG_Pipelines-A78BFA?style=for-the-badge&logo=probot&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/FAISS-C4B5FD?style=for-the-badge&logo=meta&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/LangChain-DDD6FE?style=for-the-badge&logo=chainlink&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Scikit_Learn-A78BFA?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/XGBoost-C4B5FD?style=for-the-badge&logo=xgboost&logoColor=23133D&labelColor=23133D" height="34"/>
 </p>
 
 ### 🌐 Backend, Web & Mobile
 <p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-3B0764?style=for-the-badge&logo=fastapi&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Node.js-4C1D95?style=for-the-badge&logo=node.js&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Express-581C87?style=for-the-badge&logo=express&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Next.js-6B21A8?style=for-the-badge&logo=next.js&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/React-7E22CE?style=for-the-badge&logo=react&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Flutter-9333EA?style=for-the-badge&logo=flutter&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
+  <img src="https://img.shields.io/badge/FastAPI-C4B5FD?style=for-the-badge&logo=fastapi&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Node.js-DDD6FE?style=for-the-badge&logo=node.js&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Express-A78BFA?style=for-the-badge&logo=express&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Next.js-C4B5FD?style=for-the-badge&logo=next.js&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/React-DDD6FE?style=for-the-badge&logo=react&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Flutter-A78BFA?style=for-the-badge&logo=flutter&logoColor=white&labelColor=23133D" height="34"/>
 </p>
 
-### 🗄️ Databases & Cloud
+### 🗄️ Databases & Infrastructure
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-3B0764?style=for-the-badge&logo=postgresql&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/MongoDB-4C1D95?style=for-the-badge&logo=mongodb&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/MySQL-581C87?style=for-the-badge&logo=mysql&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Redis-6B21A8?style=for-the-badge&logo=redis&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Firebase-7E22CE?style=for-the-badge&logo=firebase&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Docker-9333EA?style=for-the-badge&logo=docker&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-C4B5FD?style=for-the-badge&logo=postgresql&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/MongoDB-DDD6FE?style=for-the-badge&logo=mongodb&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/MySQL-A78BFA?style=for-the-badge&logo=mysql&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Redis-C4B5FD?style=for-the-badge&logo=redis&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Firebase-DDD6FE?style=for-the-badge&logo=firebase&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Docker-A78BFA?style=for-the-badge&logo=docker&logoColor=white&labelColor=23133D" height="34"/>
 </p>
 
-### 🔌 Embedded, Hardware & Tools
+### 🔌 Embedded, Hardware & Engineering Tools
 <p align="center">
-  <img src="https://img.shields.io/badge/TM4C123GXL-3B0764?style=for-the-badge&logo=microchip&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/ESP32-4C1D95?style=for-the-badge&logo=espressif&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Cadence_Virtuoso-581C87?style=for-the-badge&logo=circuitverse&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Git-6B21A8?style=for-the-badge&logo=git&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/VS_Code-7E22CE?style=for-the-badge&logo=visual-studio-code&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Postman-9333EA?style=for-the-badge&logo=postman&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
-  <img src="https://img.shields.io/badge/Figma-A855F7?style=for-the-badge&logo=figma&logoColor=E9D5FF&labelColor=1A0B2E" height="34"/>
+  <img src="https://img.shields.io/badge/TM4C123GXL-C4B5FD?style=for-the-badge&logo=microchip&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/ESP32-DDD6FE?style=for-the-badge&logo=espressif&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Cadence_Virtuoso-A78BFA?style=for-the-badge&logo=circuitverse&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Git-C4B5FD?style=for-the-badge&logo=git&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/VS_Code-DDD6FE?style=for-the-badge&logo=visual-studio-code&logoColor=23133D&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Postman-A78BFA?style=for-the-badge&logo=postman&logoColor=white&labelColor=23133D" height="34"/>
+  <img src="https://img.shields.io/badge/Figma-C4B5FD?style=for-the-badge&logo=figma&logoColor=23133D&labelColor=23133D" height="34"/>
 </p>
 
 </div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
-
-<br>
-
-## 🛠️ Featured Engineering
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 ClinSight AI
-`Python` `RAG` `FAISS` `SentenceTransformers` `Next.js` `Flutter`
-
-- 🏥 **Multi-Agent Clinical System**: Ingests unstructured patient histories & case records to synthesize **60-second actionable pre-consultation briefs**.
-- ⚡ **RAG Semantic Search**: Leverages FAISS vector indexing to accelerate clinical research and boost doctor decision-support efficiency by **60%**.
-- ⏱️ **70% Time Reduction**: Dramatically slashes manual chart review overhead.
-
-</td>
-<td width="50%" valign="top">
-
-### 🌾 Krishi Deep
-`FastAPI` `React` `Flutter` `XGBoost` `LSTM` `ESP32` `MongoDB`
-
-- 🤖 **Multi-Model Intelligence**: Fuses **3 specialized ML models** for real-time crop recommendation, pest detection, and yield forecasting.
-- 📡 **IoT Hardware Integration**: Live soil condition and environmental telemetry gathered via custom ESP32 sensor arrays.
-- 🔗 **Fair Market Pricing**: Transparent blockchain-anchored price discovery for farmers.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 Laser Turret Tracking System
-`Embedded C` `TM4C123GXL` `PWM` `Ultrasonic` `I2C`
-
-- 🎯 **High-Precision Targeting**: Real-time closed-loop tracking rig powered by TI's TM4C123GXL ARM Cortex-M4F MCU.
-- 📐 **±1cm Ultrasonic Filtering**: Dual-axis PWM pan-tilt servo actuators with rapid auto-lock within $\le$30cm range.
-- 📟 **Real-Time Telemetry**: Live target acquisition feedback streaming to an OLED display over I2C bus.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔭 Horizon & Research
-`Exploration & Next Steps`
-
-- 🔮 **Agentic AI Orchestration**: Multi-agent swarms with tool calling, memory banks & reasoning loops.
-- 🔬 **VLSI & RTL Synthesis**: Low-power digital IC design, CMOS layout & timing closures in Cadence.
-- 🚀 **Scale MLOps**: High-concurrency model serving, vector caches & quantization.
-- 🌐 **Open-Source Systems**: Contributing to core backend infrastructure & distributed tools.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
@@ -196,23 +154,23 @@ VLSI & Digital Logic         █████████████░░░░
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
 ## 🏆 Milestones & Experience
 
-| Icon | Milestone / Organization | Details |
+| Icon | Organization / Project | Key Role & Scope |
 | :---: | :--- | :--- |
-| 🛢️ | **IOCL Digboi Refinery** | *Electrical & Instrumentation Intern* — Industrial instrumentation, sensor loops, PLC/SCADA control systems |
-| 🔬 | **NIT Durgapur** | *Digital System Design Intern* — CMOS circuit analysis, VLSI design & simulation in Cadence Virtuoso |
-| ✈️ | **Team Aviators** | *Technical Subsystem Engineer* — UAV flight avionics, payload architecture & microcontroller integration |
-| 📊 | **Business Analytics & Data** | *Advanced Statistical Modeling* — Excel, Power BI, Exploratory Data Analysis (Udemy) |
-| 💼 | **Strategic Case Frameworks** | *Management Consulting & Guesstimates* — Structured analytical problem solving & market sizing |
+| 🛢️ | **IOCL Digboi Refinery** | *Electrical & Instrumentation Intern* — Industrial instrumentation, sensor calibration & PLC/SCADA control systems |
+| 🔬 | **NIT Durgapur** | *Digital System Design Intern* — CMOS analog/digital circuit analysis & VLSI design in Cadence Virtuoso |
+| ✈️ | **Team Aviators** | *Technical Subsystem Engineer* — UAV avionics architecture, payload telemetry & MCU integration |
+| 📊 | **Business Analytics & EDA** | *Statistical Modeling* — Data analysis, Excel, Power BI & predictive frameworks |
+| 💼 | **Strategic Consulting** | *Case Frameworks* — Structured analytical problem solving & market sizing |
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
@@ -220,49 +178,61 @@ VLSI & Digital Logic         █████████████░░░░
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dvskullz&show_icons=true&hide_border=true&title_color=C084FC&icon_color=A855F7&text_color=E9D5FF&bg_color=0D0714" width="48%"/>
+<!-- Stats Card & Top Langs (Pastel Purple) -->
+<img src="https://github-readme-stats.vercel.app/api?username=dvskullz&show_icons=true&hide_border=true&title_color=DDD6FE&icon_color=C4B5FD&text_color=E9D5FF&bg_color=191026" width="48%"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvskullz&layout=compact&hide_border=true&title_color=C084FC&text_color=E9D5FF&bg_color=0D0714" width="38%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvskullz&layout=compact&hide_border=true&title_color=DDD6FE&text_color=E9D5FF&bg_color=191026" width="38%"/>
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dvskullz&hide_border=true&background=0D0714&border=7E22CE&ring=A855F7&fire=C084FC&currStreakLabel=C084FC&sideLabels=E9D5FF&currStreakNum=FFFFFF&sideNums=E9D5FF&dates=A855F7" width="62%"/>
+<!-- Streak Stats (Pastel Purple) -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dvskullz&hide_border=true&background=191026&border=A78BFA&ring=C4B5FD&fire=DDD6FE&currStreakLabel=C4B5FD&sideLabels=E9D5FF&currStreakNum=FFFFFF&sideNums=E9D5FF&dates=C4B5FD" width="62%"/>
 
 </div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
 ## 🐍 Contribution Stream
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dvskullz/dvskullz/output/github-contribution-grid-snake-dark-purple.svg" width="100%" alt="Contribution Snake"/>
+  <img src="https://raw.githubusercontent.com/dvskullz/dvskullz/output/github-contribution-grid-snake-dark-purple.svg" width="100%" alt="Pastel Purple Contribution Snake"/>
 </div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0714,25:4C1D95,50:A855F7,75:4C1D95,100:0D0714&height=3&width=100%25"/>
+<img src="./assets/divider.svg" width="100%"/>
 
 <br>
 
-<!-- Footer Banner -->
+<!-- ═══════════════════════════ LET'S CONNECT & FOOTER ═══════════════════════════ -->
 <div align="center">
 
-### 💜 Let's Build Something Impactful
+## 💜 Let's Connect & Collaborate!
 
-<i>"Clean architecture, thoughtful hardware-software synergy, and code crafted to scale."</i>
+<p align="center">
+  <i>"Always open to discussing high-scale backend architectures, Agentic AI research, embedded hardware, or new opportunities."</i>
+</p>
 
-<br><br>
+<br>
 
 <a href="mailto:dishu6243@gmail.com">
-  <img src="https://img.shields.io/badge/Get_In_Touch-Send_an_Email-7E22CE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=3B0764" height="38"/>
+  <img src="https://img.shields.io/badge/Gmail-dishu6243%40gmail.com-C4B5FD?style=for-the-badge&logo=gmail&logoColor=23133D&labelColor=23133D" height="42" alt="Email Me"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-DDD6FE?style=for-the-badge&logo=linkedin&logoColor=23133D&labelColor=23133D" height="42" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://github.com/dvskullz" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20%40dvskullz-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=23133D" height="42" alt="GitHub"/>
 </a>
 
-<br><br>
+<br><br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0714,20:1A0B2E,45:4C1D95,70:7E22CE,100:C084FC&height=140&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt="Footer Banner"/>
 
 </div>
