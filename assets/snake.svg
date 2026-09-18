@@ -1,92 +1,94 @@
 <svg fill="none" viewBox="0 0 850 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grid-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Dark GitHub Background -->
+    <linearGradient id="gh-dark-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0D1117"/>
       <stop offset="100%" stop-color="#161B22"/>
     </linearGradient>
 
-    <!-- Light Purple Snake Filter -->
-    <filter id="light-purple-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Purple Snake Filter / Glow -->
+    <filter id="purple-snake-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
   <style>
-    .grid-info {
+    .gh-legend {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
       font-size: 11px;
       fill: #8B949E;
       font-weight: 500;
     }
     
-    /* Authentic Multi-Segment Snake Movement */
-    @keyframes snake-head-move {
+    /* Authentic Multi-Segment Purple Snake Animation */
+    @keyframes move-head {
       0%   { transform: translate(117px, 13px); }
-      15%  { transform: translate(234px, 13px); }
-      25%  { transform: translate(234px, 39px); }
-      40%  { transform: translate(377px, 39px); }
-      55%  { transform: translate(377px, 65px); }
-      70%  { transform: translate(546px, 65px); }
-      85%  { transform: translate(546px, 26px); }
+      14%  { transform: translate(234px, 13px); }
+      24%  { transform: translate(234px, 39px); }
+      38%  { transform: translate(377px, 39px); }
+      52%  { transform: translate(377px, 65px); }
+      68%  { transform: translate(546px, 65px); }
+      82%  { transform: translate(546px, 26px); }
       100% { transform: translate(728px, 26px); }
     }
     
-    @keyframes snake-body-1 {
+    @keyframes move-seg1 {
       0%   { transform: translate(104px, 13px); }
-      15%  { transform: translate(221px, 13px); }
-      25%  { transform: translate(234px, 26px); }
-      40%  { transform: translate(364px, 39px); }
-      55%  { transform: translate(377px, 52px); }
-      70%  { transform: translate(533px, 65px); }
-      85%  { transform: translate(546px, 39px); }
+      14%  { transform: translate(221px, 13px); }
+      24%  { transform: translate(234px, 26px); }
+      38%  { transform: translate(364px, 39px); }
+      52%  { transform: translate(377px, 52px); }
+      68%  { transform: translate(533px, 65px); }
+      82%  { transform: translate(546px, 39px); }
       100% { transform: translate(715px, 26px); }
     }
 
-    @keyframes snake-body-2 {
+    @keyframes move-seg2 {
       0%   { transform: translate(91px, 13px); }
-      15%  { transform: translate(208px, 13px); }
-      25%  { transform: translate(234px, 13px); }
-      40%  { transform: translate(351px, 39px); }
-      55%  { transform: translate(377px, 39px); }
-      70%  { transform: translate(520px, 65px); }
-      85%  { transform: translate(546px, 52px); }
+      14%  { transform: translate(208px, 13px); }
+      24%  { transform: translate(234px, 13px); }
+      38%  { transform: translate(351px, 39px); }
+      52%  { transform: translate(377px, 39px); }
+      68%  { transform: translate(520px, 65px); }
+      82%  { transform: translate(546px, 52px); }
       100% { transform: translate(702px, 26px); }
     }
 
-    @keyframes snake-body-3 {
+    @keyframes move-seg3 {
       0%   { transform: translate(78px, 13px); }
-      15%  { transform: translate(195px, 13px); }
-      25%  { transform: translate(221px, 13px); }
-      40%  { transform: translate(338px, 39px); }
-      55%  { transform: translate(364px, 39px); }
-      70%  { transform: translate(507px, 65px); }
-      85%  { transform: translate(546px, 65px); }
+      14%  { transform: translate(195px, 13px); }
+      24%  { transform: translate(221px, 13px); }
+      38%  { transform: translate(338px, 39px); }
+      52%  { transform: translate(364px, 39px); }
+      68%  { transform: translate(507px, 65px); }
+      82%  { transform: translate(546px, 65px); }
       100% { transform: translate(689px, 26px); }
     }
 
-    @keyframes snake-tail {
+    @keyframes move-tail {
       0%   { transform: translate(65px, 13px); }
-      15%  { transform: translate(182px, 13px); }
-      25%  { transform: translate(208px, 13px); }
-      40%  { transform: translate(325px, 39px); }
-      55%  { transform: translate(351px, 39px); }
-      70%  { transform: translate(494px, 65px); }
-      85%  { transform: translate(533px, 65px); }
+      14%  { transform: translate(182px, 13px); }
+      24%  { transform: translate(208px, 13px); }
+      38%  { transform: translate(325px, 39px); }
+      52%  { transform: translate(351px, 39px); }
+      68%  { transform: translate(494px, 65px); }
+      82%  { transform: translate(533px, 65px); }
       100% { transform: translate(676px, 26px); }
     }
 
-    .head-node { animation: snake-head-move 10s linear infinite; }
-    .body-node-1 { animation: snake-body-1 10s linear infinite; }
-    .body-node-2 { animation: snake-body-2 10s linear infinite; }
-    .body-node-3 { animation: snake-body-3 10s linear infinite; }
-    .tail-node   { animation: snake-tail 10s linear infinite; }
+    .snake-head { animation: move-head 10s linear infinite; }
+    .snake-s1   { animation: move-seg1 10s linear infinite; }
+    .snake-s2   { animation: move-seg2 10s linear infinite; }
+    .snake-s3   { animation: move-seg3 10s linear infinite; }
+    .snake-tail { animation: move-tail 10s linear infinite; }
   </style>
 
   <!-- Container Box -->
-  <rect width="850" height="160" rx="10" fill="url(#grid-bg-dark)" stroke="#30363D" stroke-width="1"/>
+  <rect width="850" height="160" rx="10" fill="url(#gh-dark-bg)" stroke="#30363D" stroke-width="1"/>
 
   <!-- 7-Row Authentic Contribution Grid (54 Columns x 7 Rows) -->
+  <!-- Classic GitHub Green Palette: #161B22 (0), #0E4429 (1), #006D32 (2), #26A641 (3), #39D353 (4) -->
   <g transform="translate(25, 20)">
     
     <!-- Row 0 (Sun) -->
@@ -546,29 +548,29 @@
 
     <!-- The Light Purple Slithering Snake (Head + 4 rounded body nodes) -->
     <!-- Tail -->
-    <circle cx="5" cy="5" r="4.5" fill="#A78BFA" class="tail-node" filter="url(#light-purple-glow)"/>
+    <circle cx="5" cy="5" r="4.5" fill="#8B5CF6" class="snake-tail" filter="url(#purple-snake-glow)"/>
     <!-- Body 3 -->
-    <circle cx="5" cy="5" r="5" fill="#C4B5FD" class="body-node-3" filter="url(#light-purple-glow)"/>
+    <circle cx="5" cy="5" r="5" fill="#A78BFA" class="snake-s3" filter="url(#purple-snake-glow)"/>
     <!-- Body 2 -->
-    <circle cx="5" cy="5" r="5" fill="#DDD6FE" class="body-node-2" filter="url(#light-purple-glow)"/>
+    <circle cx="5" cy="5" r="5" fill="#C4B5FD" class="snake-s2" filter="url(#purple-snake-glow)"/>
     <!-- Body 1 -->
-    <circle cx="5" cy="5" r="5.2" fill="#E9D5FF" class="body-node-1" filter="url(#light-purple-glow)"/>
+    <circle cx="5" cy="5" r="5.2" fill="#DDD6FE" class="snake-s1" filter="url(#purple-snake-glow)"/>
     <!-- Head with eyes -->
-    <g class="head-node" filter="url(#light-purple-glow)">
-      <circle cx="5" cy="5" r="5.5" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="0.8"/>
-      <circle cx="4" cy="3.5" r="0.9" fill="#2E1065"/>
-      <circle cx="7" cy="3.5" r="0.9" fill="#2E1065"/>
+    <g class="snake-head" filter="url(#purple-snake-glow)">
+      <circle cx="5" cy="5" r="5.6" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="0.8"/>
+      <circle cx="4" cy="3.5" r="0.9" fill="#3B0764"/>
+      <circle cx="7" cy="3.5" r="0.9" fill="#3B0764"/>
     </g>
   </g>
 
-  <!-- Legend at Bottom Right -->
-  <g transform="translate(680, 130)">
-    <text x="0" y="9" class="grid-info">Less</text>
-    <rect x="28" y="0" width="10" height="10" rx="2" fill="#161B22"/>
-    <rect x="41" y="0" width="10" height="10" rx="2" fill="#0E4429"/>
-    <rect x="54" y="0" width="10" height="10" rx="2" fill="#006D32"/>
-    <rect x="67" y="0" width="10" height="10" rx="2" fill="#26A641"/>
-    <rect x="80" y="0" width="10" height="10" rx="2" fill="#39D353"/>
-    <text x="96" y="9" class="grid-info">More</text>
+  <!-- Classic Green Legend at Bottom Right -->
+  <g transform="translate(675, 130)">
+    <text x="0" y="9" class="gh-legend">Less</text>
+    <rect x="30" y="0" width="10" height="10" rx="2" fill="#161B22"/>
+    <rect x="43" y="0" width="10" height="10" rx="2" fill="#0E4429"/>
+    <rect x="56" y="0" width="10" height="10" rx="2" fill="#006D32"/>
+    <rect x="69" y="0" width="10" height="10" rx="2" fill="#26A641"/>
+    <rect x="82" y="0" width="10" height="10" rx="2" fill="#39D353"/>
+    <text x="98" y="9" class="gh-legend">More</text>
   </g>
 </svg>
