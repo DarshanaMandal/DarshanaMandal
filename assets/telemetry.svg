@@ -1,0 +1,110 @@
+<svg fill="none" viewBox="0 0 850 200" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140B24"/>
+      <stop offset="50%" stop-color="#1F1138"/>
+      <stop offset="100%" stop-color="#281546"/>
+    </linearGradient>
+
+    <linearGradient id="circle-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDD6FE"/>
+      <stop offset="50%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <filter id="telemetry-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .t-heading {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      fill: #DDD6FE;
+    }
+    .stat-number {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      fill: #FFFFFF;
+    }
+    .stat-label {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 12.5px;
+      font-weight: 600;
+      fill: #C4B5FD;
+    }
+    .stat-sub {
+      font-family: 'Fira Code', monospace;
+      font-size: 11px;
+      fill: #A78BFA;
+    }
+    .grade-text {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 36px;
+      font-weight: 900;
+      fill: #DDD6FE;
+    }
+    .lang-name {
+      font-family: 'Fira Code', monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: #E9D5FF;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="850" height="200" rx="14" fill="url(#card-bg)" stroke="#C4B5FD" stroke-opacity="0.3" stroke-width="1.2"/>
+
+  <!-- Card 1: Total Activity -->
+  <g transform="translate(30, 24)">
+    <rect width="230" height="150" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="32" class="stat-label">🚀 TOTAL COMMITS</text>
+    <text x="20" y="78" class="stat-number">84</text>
+    <text x="20" y="102" class="stat-sub">✦ 2024 - 2025 Activity</text>
+    <!-- Mini progress bar -->
+    <rect x="20" y="120" width="190" height="6" rx="3" fill="#2A174A"/>
+    <rect x="20" y="120" width="165" height="6" rx="3" fill="#C4B5FD"/>
+  </g>
+
+  <!-- Card 2: Code Health & Grade -->
+  <g transform="translate(285, 24)">
+    <rect width="240" height="150" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="32" class="stat-label">⚡ CODE INTEGRITY</text>
+    <!-- Circle gauge -->
+    <circle cx="65" cy="90" r="35" stroke="#2A174A" stroke-width="6" fill="none"/>
+    <circle cx="65" cy="90" r="35" stroke="url(#circle-grad)" stroke-width="6" stroke-dasharray="220" stroke-dashoffset="35" stroke-linecap="round" fill="none"/>
+    <text x="65" y="98" text-anchor="middle" class="grade-text">A+</text>
+    <text x="125" y="75" class="stat-sub">✦ Reliability</text>
+    <text x="125" y="96" class="stat-label" font-size="14px">99.4%</text>
+    <text x="125" y="120" class="stat-sub">Top 10% Tier</text>
+  </g>
+
+  <!-- Card 3: Top Stack Distribution -->
+  <g transform="translate(550, 24)">
+    <rect width="270" height="150" rx="10" fill="#180E2C" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="20" y="30" class="stat-label">🔮 TOP TECH STACK</text>
+    
+    <!-- Python -->
+    <text x="20" y="58" class="lang-name">Python</text>
+    <text x="235" y="58" class="stat-sub" text-anchor="end">45%</text>
+    <rect x="20" y="64" width="230" height="5" rx="2.5" fill="#2A174A"/>
+    <rect x="20" y="64" width="103" height="5" rx="2.5" fill="#DDD6FE"/>
+
+    <!-- C / C++ -->
+    <text x="20" y="90" class="lang-name">C / C++ (Embedded)</text>
+    <text x="235" y="90" class="stat-sub" text-anchor="end">28%</text>
+    <rect x="20" y="96" width="230" height="5" rx="2.5" fill="#2A174A"/>
+    <rect x="20" y="96" width="65" height="5" rx="2.5" fill="#C4B5FD"/>
+
+    <!-- TypeScript / JS -->
+    <text x="20" y="122" class="lang-name">TypeScript / Web</text>
+    <text x="235" y="122" class="stat-sub" text-anchor="end">27%</text>
+    <rect x="20" y="128" width="230" height="5" rx="2.5" fill="#2A174A"/>
+    <rect x="20" y="128" width="62" height="5" rx="2.5" fill="#A78BFA"/>
+  </g>
+</svg>

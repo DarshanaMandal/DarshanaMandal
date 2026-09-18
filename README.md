@@ -19,16 +19,16 @@
   <img src="https://img.shields.io/badge/LinkedIn-DDD6FE?style=for-the-badge&logo=linkedin&logoColor=23133D&labelColor=23133D" height="42" alt="LinkedIn"/>
 </a>
 &nbsp;
-<a href="https://github.com/dvskullz" target="_blank">
+<a href="https://github.com/DarshanaMandal" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=23133D" height="42" alt="GitHub"/>
 </a>
 
 <br><br>
 
 <!-- Profile Views & Followers (Pastel Lavender) -->
-<img src="https://komarev.com/ghpvc/?username=dvskullz&style=for-the-badge&color=c4b5fd&labelColor=1f1435&label=PROFILE+VIEWS" height="28" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=DarshanaMandal&style=for-the-badge&color=c4b5fd&labelColor=1f1435&label=PROFILE+VIEWS" height="28" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/dvskullz?style=for-the-badge&color=ddd6fe&labelColor=1f1435&label=FOLLOWERS&logo=github&logoColor=c4b5fd" height="28" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/DarshanaMandal?style=for-the-badge&color=ddd6fe&labelColor=1f1435&label=FOLLOWERS&logo=github&logoColor=c4b5fd" height="28" alt="Followers"/>
 
 <br><br>
 
@@ -144,13 +144,9 @@
 
 ## 📈 Skill Proficiency & Focus
 
-```text
-Applied AI & Agentic RAG     ██████████████████░░  90%  [ Advanced ]
-High-Throughput Backend      █████████████████░░░  85%  [ Advanced ]
-Embedded Systems & IoT       ████████████████░░░░  80%  [ Proficient ]
-System Design & Architecture ██████████████░░░░░░  72%  [ Proficient ]
-VLSI & Digital Logic         █████████████░░░░░░░  65%  [ Active Learning ]
-```
+<div align="center">
+  <img src="./assets/skills.svg" width="100%" alt="Skill Proficiency & Focus Matrix"/>
+</div>
 
 <br>
 
@@ -160,13 +156,42 @@ VLSI & Digital Logic         █████████████░░░░
 
 ## 🏆 Milestones & Experience
 
-| Icon | Organization / Project | Key Role & Scope |
-| :---: | :--- | :--- |
-| 🛢️ | **IOCL Digboi Refinery** | *Electrical & Instrumentation Intern* — Industrial instrumentation, sensor calibration & PLC/SCADA control systems |
-| 🔬 | **NIT Durgapur** | *Digital System Design Intern* — CMOS analog/digital circuit analysis & VLSI design in Cadence Virtuoso |
-| ✈️ | **Team Aviators** | *Technical Subsystem Engineer* — UAV avionics architecture, payload telemetry & MCU integration |
-| 📊 | **Business Analytics & EDA** | *Statistical Modeling* — Data analysis, Excel, Power BI & predictive frameworks |
-| 💼 | **Strategic Consulting** | *Case Frameworks* — Structured analytical problem solving & market sizing |
+<table width="100%">
+  <thead>
+    <tr align="left">
+      <th width="8%" align="center">Badge</th>
+      <th width="35%">Organization / Experience</th>
+      <th width="57%">Key Role, Research & Scope</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">🛢️</td>
+      <td><strong>IOCL Digboi Refinery</strong><br><sub><em>Electrical &amp; Instrumentation Intern</em></sub></td>
+      <td>Industrial sensor calibration loops, field transmitters, and PLC/SCADA automated safety architectures in refinery operations.</td>
+    </tr>
+    <tr>
+      <td align="center">🔬</td>
+      <td><strong>NIT Durgapur</strong><br><sub><em>Digital System Design Intern</em></sub></td>
+      <td>CMOS analog/digital circuit analysis, VLSI schematic synthesis, and timing closure simulations in <strong>Cadence Virtuoso</strong>.</td>
+    </tr>
+    <tr>
+      <td align="center">✈️</td>
+      <td><strong>Team Aviators</strong><br><sub><em>Technical Subsystem Engineer</em></sub></td>
+      <td>UAV flight avionics architecture, payload telemetry sensor fusion &amp; real-time microcontroller integration.</td>
+    </tr>
+    <tr>
+      <td align="center">📊</td>
+      <td><strong>Business Analytics &amp; EDA</strong><br><sub><em>Statistical Modeling</em></sub></td>
+      <td>Exploratory data analysis, statistical forecasting, Excel modeling, and interactive reporting dashboards in Power BI.</td>
+    </tr>
+    <tr>
+      <td align="center">💼</td>
+      <td><strong>Strategic Case Frameworks</strong><br><sub><em>Management Consulting</em></sub></td>
+      <td>Structured analytical problem solving, market sizing, hypothesis testing &amp; business case interview frameworks.</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -178,15 +203,13 @@ VLSI & Digital Logic         █████████████░░░░
 
 <div align="center">
 
-<!-- Stats Card & Top Langs (Pastel Purple) -->
-<img src="https://github-readme-stats.vercel.app/api?username=dvskullz&show_icons=true&hide_border=true&title_color=DDD6FE&icon_color=C4B5FD&text_color=E9D5FF&bg_color=191026" width="48%"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvskullz&layout=compact&hide_border=true&title_color=DDD6FE&text_color=E9D5FF&bg_color=191026" width="38%"/>
+<!-- Custom Pastel Telemetry Card -->
+<img src="./assets/telemetry.svg" width="100%" alt="Pastel Purple GitHub Telemetry Dashboard"/>
 
 <br><br>
 
-<!-- Streak Stats (Pastel Purple) -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dvskullz&hide_border=true&background=191026&border=A78BFA&ring=C4B5FD&fire=DDD6FE&currStreakLabel=C4B5FD&sideLabels=E9D5FF&currStreakNum=FFFFFF&sideNums=E9D5FF&dates=C4B5FD" width="62%"/>
+<!-- Streak Stats Card (Pastel Purple) -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=DarshanaMandal&hide_border=true&background=140B24&border=A78BFA&ring=C4B5FD&fire=DDD6FE&currStreakLabel=C4B5FD&sideLabels=E9D5FF&currStreakNum=FFFFFF&sideNums=E9D5FF&dates=C4B5FD" width="70%" alt="Darshana's GitHub Streak"/>
 
 </div>
 
@@ -199,7 +222,7 @@ VLSI & Digital Logic         █████████████░░░░
 ## 🐍 Contribution Stream
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dvskullz/dvskullz/output/github-contribution-grid-snake-dark-purple.svg" width="100%" alt="Pastel Purple Contribution Snake"/>
+  <img src="./assets/snake.svg" width="100%" alt="Pastel Purple Contribution Snake"/>
 </div>
 
 <br>
@@ -227,8 +250,8 @@ VLSI & Digital Logic         █████████████░░░░
   <img src="https://img.shields.io/badge/LinkedIn-Connect-DDD6FE?style=for-the-badge&logo=linkedin&logoColor=23133D&labelColor=23133D" height="42" alt="LinkedIn"/>
 </a>
 &nbsp;
-<a href="https://github.com/dvskullz" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20%40dvskullz-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=23133D" height="42" alt="GitHub"/>
+<a href="https://github.com/DarshanaMandal" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20%40DarshanaMandal-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=23133D" height="42" alt="GitHub"/>
 </a>
 
 <br><br><br>
